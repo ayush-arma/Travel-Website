@@ -1,0 +1,48 @@
+
+#carouselExampleCaptions:hover{
+    cursor: pointer;
+}
+
+.navbar{
+    font-size: 20px;
+}
+
+#container{
+
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+.card{
+    position: relative;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.26);
+    border-radius: 8px;
+    margin: 5px auto;
+}
+.cards-starting{
+    position: relative;
+    border: 10px solid white;
+    text-align: center;
+}
+
+.imagesize{
+    width: 100%;
+    height: 100%;
+}
+
+#contact{
+    display: flex;
+    border: 10px solid white;
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    padding: 5px auto;
+    position: absolute;
+}
+.image{
+    position: relative;
+}
+.carousel-item img{
+    height: 600px;
+}
